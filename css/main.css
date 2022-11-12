@@ -1,0 +1,188 @@
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden { display: none; }
+
+html, body { height: 100% }
+
+body { 
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+  background-image: url('../images/denim.png');
+}
+
+/* Style The Header */
+header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+#main-logo 
+{       width: 100px;
+         padding: 10px   0;
+         
+}
+/* main selection styles */
+#character-nav{ text-align: center; background-color: red; 
+
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: luminosity;
+
+}
+
+
+.characters {list-style-type: none;}
+
+
+.characters li h5 {
+                padding: 14px 8px;
+                color: white;
+                text-decoration: none;
+}
+
+.characters li { display: inline-block;
+                height: 250px;
+                margin: 15px 6px;
+
+                background-color: black;
+                text-align: left;
+                overflow: hidden;
+
+}
+
+
+
+.characters li img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.sprite {
+    width: 150px;
+    height: 150px;
+
+}
+
+
+
+.sprite:hover{background-position-y: -150px !important;}
+
+    .characters li h5{
+        padding: 20px 8px;
+    }
+
+
+#satoru {background-image: url("../img/satoru.jpg");}
+#megumi {background-image: url("../img/megumi.jpg");}
+#yuji {background-image: url("../img/yuji.jpg");}
+#Sukuna {background-image: url("../img/sukuna.jpg");}
+#Yuta {background-image: url("../img/yuta.jpg");}
+
+.red-bumber {height: 6px; background-color:red;}
+
+
+.info { padding: 20px;}
+
+.info h3 {
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 14px;
+}
+.info p{
+        width: 80%;
+        font-size: 10px;
+        line-height: 1,2;
+        text-align: center;
+        margin: 0 auto;
+}
+
+footer {
+
+        color: aliceblue;
+        padding: 20px 0;
+        text-align: center;
+
+}
+
+.sticky-footer{
+                position: sticky;
+                top: 100%;
+                height: 80px;
+                background-color: grey;
+}
+
+/* light bob style  */
+
+.lightbob {
+            display: none; 
+            width: 100vw; /* viewport width its the width of the browser window */
+            height: 100vh; /* viewport height its the height of browser window */
+
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            background-color: rgba(0 ,0 ,0 ,0.7);
+            background-repeat: no-repeat;
+            background-position: 40px bottom;
+            background-size: 55Vh;
+}
+
+.lb_close {
+
+            color: white;
+              
+            
+
+            text-decoration: none;
+
+            position: relative;
+            top: 2px;
+            left:95%;
+            font-weight: bolder;
+
+
+
+}
+
+.lb_close:hover {
+
+                opacity: 0.5;
+
+}
+
+.lightbob article {
+                    width: 30 ;
+                    margin-left: 35%;
+                    padding-top: 50px;;
+}
+
+.lb_text, .lb_heading { text-align: left;
+}
+
+.lb_text {
+            line-height: 1.6;
+            margin-left: 0;
+            padding-top: 2em;
+            font-size: small;
+}
+
+#lightBob {
+            background-image: url("../img/Satoru_Gojo_29.webp");
+}
+#lightBob2 {
+        background-image: url("../img/Yuji_Itadori_29.webp");
+}
+.lightbob:target {
+            display: block;
+}
