@@ -183,6 +183,15 @@ footer {
 #lightBob2 {
         background-image: url("../img/Yuji_Itadori_29.webp");
 }
+#lightBob3 {
+    background-image: url("../img/Megumi_Fushiguro_29.webp");
+}
+#lightBob4 {
+    background-image: url("../img/Sukuna_29.webp");
+}
+#lightBob5 {
+    background-image: url("../img/Yuta_Okkotsu_29.webp");
+}
 .lightbob:target {
             display: block;
 }
